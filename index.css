@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #182042;
+}
+
+@font-face {
+    src: url(font/digital-7.ttf);
+    font-family: "digital";
+}
+
+#scoreboard-body {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scoreboard-button {
+    padding: 5px 10px 5px 10px;
+    font-family: digital, sans-serif;
+    background-color: #182042;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+.scoreboard-button:hover {
+    background-color: grey;
+}
+
+
+.scoreboard-score {
+    font-family: digital, sans-serif;
+    font-size: 50px;
+    color: #F44763;
+    background-color: black;
+    padding: 20px 40px;
+    margin-top: 0px;
+    border-radius: 5px;
+}
+
+#scoreboard-title {
+    color: white;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 30px;
+}
